@@ -1,5 +1,5 @@
-mod included {
-    fn hello_world() {
+pub mod included {
+    pub fn hello_world() {
         println!("Hello World");
     }
 }
